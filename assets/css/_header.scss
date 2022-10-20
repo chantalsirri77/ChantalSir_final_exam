@@ -1,0 +1,35 @@
+
+header{
+    .header_container{
+        height: 2px;
+
+
+        .banner_logo{
+            background-color: gray;
+            width: 100%;
+
+            h1{
+                font-size: 3%;
+                color: black;
+                text-decoration: none;
+
+                svg{
+                    width: 1%;
+                    height: 2%;
+                 }
+            }
+           
+        }
+     
+    }
+  
+    ul, li, a{
+        .nav_panel{
+            display: grid;
+            width: 100%;
+            .header_ul{
+                color: white;
+            }
+        }
+    }
+}
